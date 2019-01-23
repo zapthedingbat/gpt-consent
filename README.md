@@ -27,7 +27,7 @@ https://support.google.com/admanager/answer/9031024?hl=en&ref_topic=9007190
 Include the script tag somewhere within the page.
 
 ```html
-<script src="/gpt-consent.v0.0.1.js"></script>
+<script src="//unpkg.com/gpt-consent@latest/dist/g.js"></script>
 ```
 
 Include an overlay element with the id `consentOverlay` somewhere within the page that will be displayed to users that have not provided consent. This must include elements with the `data-consent-action="opt-in"` and `data-consent-action="opt-out"` attributes that are used to handle the users choice and close the prompt.
