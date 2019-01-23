@@ -1,0 +1,17 @@
+body {
+  background-color: #888;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 460px;
+  margin: 0 auto;
+}
+main {
+  background-color: #fff;
+  padding: 1em 0;
+}
+footer {
+  padding: 1em;
+  border-top: solid 1px #888;
+}

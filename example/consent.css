@@ -1,0 +1,42 @@
+#consentOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+#consentOverlay .prompt {
+  background-color: #fff;
+  border-radius: 8px;
+  color: #444;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+  padding: 1em 3em;
+  position: fixed;
+  top: 50%;
+  width: 300px;
+}
+#consentOverlay .yes {
+  color: #fff;
+  background-color: #4a4;
+  border-style: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 1em auto;
+  min-width: 150px;
+  padding: .5em;
+}
+#consentOverlay .no {
+  color: #888;
+  background-color: transparent;
+  border-style: none;
+  min-width: 140px;
+  padding: .5em;
+}
+#consentOverlay .hint {
+  color: #888;
+  font-style: italic;
+}

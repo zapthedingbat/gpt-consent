@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GPT Consent Collection</title>
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="consent.css" />
+
+    <!-- Include the GPT Library -->
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>GPT Consent Collection</h1>
+        <p>
+          Minimal consent collection script to meet Google Ad network consent
+          collection requirements.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          ac mi elementum, efficitur sapien sit amet, consequat dolor.
+          Suspendisse id tortor pretium, posuere justo a, dignissim diam. Nam
+          feugiat mattis metus in suscipit. Praesent eu mauris commodo, luctus
+          leo et, sagittis massa.
+        </p>
+        <p>
+          Duis euismod orci a ultricies pellentesque. Maecenas convallis
+          tincidunt justo, at ultrices urna volutpat in. Orci varius natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Orci varius natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Quisque nec sem nisl.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <!-- Include an element to re-open the prompt -->
+        <a data-consent-action="choose" href="javascript:;">Change your ad personalization choice.</a>
+      </div>
+    </footer>
+    <!-- Include a prompt overlay with an opt-in and opt-out element -->
+    <div id="consentOverlay" style="display:none">
+      <div class="prompt">
+        <h1>Can we use your data to tailor ads for you?</h1>
+        <p>
+          Our partners will collect data and use cookies for ad personalization
+          and measurement. <a href="/privacy" target="_blank">Learn how</a> we
+          and our partners collect and use data
+        </p>
+        <button class="yes" data-consent-action="opt-in">Yes</button>
+        <button class="no" data-consent-action="opt-out">No</button>
+        <p class="hint">
+          You can change your choice at any time.
+        </p>
+      </div>
+    </div>
+    <!-- Include the consent script -->
+    <script src="//unpkg.com/gpt-consent@latest/dist/g.js"></script>
+  </body>
+</html>
