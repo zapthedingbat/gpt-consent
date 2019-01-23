@@ -14,5 +14,23 @@
     "prepublish": "node ./scripts/build.js"
   },
   "author": "sam@radicalresearch.co.uk",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "dist/g.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapthedingbat/gpt-consent.git"
+  },
+  "keywords": [
+    "GPT",
+    "consent",
+    "personalization",
+    "ads"
+  ],
+  "bugs": {
+    "url": "https://github.com/zapthedingbat/gpt-consent/issues"
+  },
+  "homepage": "https://github.com/zapthedingbat/gpt-consent#readme"
 }
